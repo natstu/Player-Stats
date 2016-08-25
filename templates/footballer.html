@@ -1,0 +1,18 @@
+<div class="player">
+ <img src="{{searchStats.player.name.image}}">
+</div>
+<div class="stats">
+    <div class="name"><span>{{searchStats.player.name.first}}  {{searchStats.player.name.last}}</span>
+    <div class="{{searchStats.player.currentTeam.shortName}} logo"></div>
+   </div>
+    <div class="position">{{searchStats.player.info.positionInfo}}</div>
+    <div class="stat-block"><span>Appearances</span><span>{{searchStats.stats[6].value}}</span></div>
+    <div class="stat-block"><span>Goals</span><span>{{searchStats.stats[0].value}}</span></div>
+    <div class="stat-block"><span>Assits</span><span>{{searchStats.stats[5].value}}</span></div>
+    <div class="stat-block"><span>Shots per match</span>
+     <span>{{shotsPerMatch}}</span>
+    </div>
+    <div class="stat-block"><span>Passes per minute</span>
+     <span>{{passPerMin}}</span>
+    </div>
+</div>

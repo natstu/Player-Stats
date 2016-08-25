@@ -1,0 +1,35 @@
+@mixin search_input_text {
+  font-size: $primary_text;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+}
+@mixin footballer_role  {
+  font-size: $primary_text;
+  color: $light_text;
+}
+
+@mixin footballer_name {
+  font-size: $large_text;
+  color: $light_text;
+}
+
+@mixin stats_title {
+  font-size: $primary_text;
+  color: $dark_text;
+}
+
+@mixin stats_value {
+  font-size: $medium_text;
+  color: $dark_text;
+  font-weight: bold;
+}
+
+@mixin space-justify {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+

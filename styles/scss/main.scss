@@ -1,0 +1,96 @@
+@import 'normalize';
+@import 'variables';
+@import 'mixins';
+
+
+body {
+    font-family: 'Arial' sans-serif;
+        
+}
+//SEARCH
+#header {
+ padding: $main_padding;
+}
+
+#dropdownMenu1 {
+ width: 100%;
+ height: $primary_block_height;
+ @include space-justify;
+ @include search_input_text;
+ background-color: $darker_back;
+ border-radius: 0px!important;
+ border-color: $darker_back;
+}
+.open>.dropdown-menu {
+ width: 100%;
+}
+
+//VIEWS
+.player {
+ background: url("../../assets/background-pattern.png") no-repeat right 20px;
+ background-size: 100% 100%;
+}
+.stats {
+ background-color: $theme_back;
+ height: 100%;
+ padding-bottom: $main_padding;
+}
+
+.stat-block {
+ background-color: $light_back;
+ margin: 3px $main_margin;
+ color: $dark_text;
+ font-size: $primary_text; 
+ @include space-justify;
+ padding: $main_padding;
+ box-shadow: 0px -2px 11px -1px rgba(0, 0, 0, 0.45);
+}
+.stat-block span:nth-child(2){
+ font-weight: bold;
+}
+.name {
+ @include space-justify;
+}
+.name, .position {
+ margin: 0px $main_margin;
+}
+.name, .position {
+ color: $light_text;
+}
+.name {
+ font-size: $medium_text; 
+}
+.position {
+ font-size: $primary_text; 
+}
+
+//CLUB LOGOS
+
+.logo {
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ margin-top: -60px;
+ box-shadow: 0px 1px 12px 0px rgba(0,0,0,.5);
+}
+
+.Spurs {
+ background: white $club_logo_url no-repeat -498px -1001px;
+}
+
+.Man.City {
+ background: white $club_logo_url no-repeat -800px -700px;
+}
+.Man.Utd {
+ background: white $club_logo_url no-repeat -601px -800px;
+}
+.Arsenal {
+ background: white $club_logo_url no-repeat -97px -94px;;
+ width: 105px;
+ height: 106px;
+}
+.Leicester {
+ background: white $club_logo_url no-repeat 0 0;
+}
+
+

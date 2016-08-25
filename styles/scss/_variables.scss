@@ -1,0 +1,41 @@
+//BREAKPOINTS
+$screenXS: 480px;
+$screenS: 768px;
+$screenM: 992px;
+$screenL: 1200px;
+
+
+/* HEIGHTS/SIZES*/
+
+$large_text: 22px;
+$medium_text: 19px;
+$primary_text: 16px;
+
+$primary_block_height: 40px;
+
+/*COLOURS*/
+
+/*theme colours*/
+
+$theme_back: #e90052;
+$darker_back: #eaeaea;
+$light_back: #ffffff;
+
+/*text colours*/
+
+$light_text: rgb( 255, 255, 255 );
+$dark_text: rgb( 56, 0, 60 );
+
+/* PADDINGS */
+
+$main_padding: 16px;
+
+$zero: 0px;
+
+/*MARGINS*/
+
+$no_gap: 0px;
+$main_margin: 16px;
+
+/*PATHS*/
+$club_logo_url: url('../../assets/badges_sprite.png');
